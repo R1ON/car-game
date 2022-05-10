@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: #6c7b2a;
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+}
+
+.road {
+    background: #817f84;
+    width: 300px;
+    height: 100vh;
+}
+
+.tree {
+    position: absolute;
+}
+
+.tree1 {
+    transform: translate(-220px, -15vh);
+    width: 250px;
+}
+.tree2 {
+    transform: translate(-240px, 25vh);
+    width: 300px;
+}
+.tree3 {
+    transform: translate(-200px, 70vh);
+    width: 230px;
+}
+.tree4 {
+    transform: translate(240px, -5vh);
+    width: 280px;
+}
+.tree5 {
+    transform: translate(200px, 40vh);
+    width: 240px;
+}
+.tree6 {
+    transform: translate(210px, 80vh);
+    width: 270px;
+}
+
+.game-button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.game-button:hover {
+    transform: scale(1.2);
+}
+
+.game-button img {
+    width: 60px;
+    height: 60px;
+}
+
+.danger {
+    position: absolute;
+    width: 80px;
+}
+
+.coin {
+    position: absolute;
+    width: 50px;
+}
+
+.arrow {
+    position: absolute;
+    width: 50px;
+}
